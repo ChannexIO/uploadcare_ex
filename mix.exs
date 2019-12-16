@@ -8,9 +8,9 @@ defmodule UploadcareEx.MixProject do
       elixir: "~> 1.6",
       description: "Elixir wrapper for Uploadcare API",
       package: [
-        maintainers: ["Ivchenko Ivan"],
+        maintainers: ["Andrew Judis Yudin"],
         licenses: ["MIT"],
-        links: %{"GitHub" => "https://github.com/EevanW/uploadcare_ex"}
+        links: %{"GitHub" => "https://github.com/ChannexIO/uploadcare_ex"}
       ],
       start_permanent: Mix.env() == :prod,
       deps: deps(),
