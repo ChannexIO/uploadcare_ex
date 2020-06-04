@@ -1,4 +1,7 @@
-# 0.1.3
+# 0.1.5
+### Fixes
+    Solve problem when status "waiting" returned as success situation
+
 # 0.1.4
 * Retry for upload_url status check (add progress status)(https://github.com/CryptoHamsters/uploadcare_ex/pull/5)
 # 0.1.3

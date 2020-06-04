@@ -40,7 +40,7 @@ defmodule UploadcareEx.API.Upload.Url do
 
         # retry status check with delay when upload still in progress
         {:ok, %{status_code: 200, body: %{"status" => status}} = resp}
-        when status in ["unknown", "progress"] ->
+        when status in ["unknown", "progress", "waiting"] ->
           {:cont, {:error, resp}}
 
         other ->
